@@ -29,5 +29,3 @@
 ## choose bin values
 `df.hist(data, bins=[0, 10, 20, 30, 40, 50, 100])`
 
-## Equal distribution of bins
-`plt.hist(data, bins=range(min(data), max(data) + binwidth, binwidth))`
