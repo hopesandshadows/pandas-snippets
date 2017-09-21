@@ -9,16 +9,16 @@
 
 `print(names, number)`
 
-# count values from columns
+## count values from columns
 
 `VARIABLE = df["COLUMNNAME"].value_counts()`
 
 # Dataframe
-# information about dataframe
+## information about dataframe
 `df.info()`
 
-## Statistics
-# descriptive stats of df
+# Statistics
+## descriptive stats of df
 `df.describe()`
 
 # Matplotlib
