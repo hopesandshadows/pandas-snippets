@@ -2,20 +2,20 @@
 
 #get column list
 
-number = len(df.columns)
-names = list(df.columns.values)
+`number = len(df.columns)
+`names = list(df.columns.values)
 
-print(names, number)
+`print(names, number)
 
 #df info
-df.info()
+`df.info()
 
 #descriptive stats
-df.describe()
+`df.describe()
 
 #count values from columns
 
-VARIABLE = df["COLUMNNAME"].value_counts()
+`VARIABLE = df["COLUMNNAME"].value_counts()
 
 #display matplotlib inline
-%matplotlib inline 
+`%matplotlib inline 
