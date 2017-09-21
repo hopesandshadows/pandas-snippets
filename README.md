@@ -1,28 +1,33 @@
 # pandas-snippets
 
-# get column list
+# Columns 
+
+## Get column list and values
 
 `number = len(df.columns)`
 `names = list(df.columns.values)`
 
 `print(names, number)`
 
-# df info
-`df.info()`
-
-# descriptive stats
-`df.describe()`
-
 # count values from columns
 
 `VARIABLE = df["COLUMNNAME"].value_counts()`
 
-# display matplotlib inline
+# Dataframe
+# information about dataframe
+`df.info()`
+
+## Statistics
+# descriptive stats of df
+`df.describe()`
+
+# Matplotlib
+## display matplotlib inline
 `%matplotlib inline`
 
-## Histograms
-# choose bins
+# Histograms
+## choose bin values
 `df.hist(data, bins=[0, 10, 20, 30, 40, 50, 100])`
-# If you just want them equally distributed, you can simply use range:
 
+## Equal distribution of bins
 `plt.hist(data, bins=range(min(data), max(data) + binwidth, binwidth))`
