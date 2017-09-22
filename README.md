@@ -33,14 +33,9 @@
 
 ## Create variables and then join
 
-# Create variable with TRUE Player is Active 
 `var1 = df['COLUMNNAME'] == 'Yes'`
+`var2 = df['COLUMNNAME'] != 0
+`var3 = df['COLUMNNAME'] != 'Something'`
 
-# Create variable with False if club is Liverpool
-`var2 = df['COLUMNNAME'] != 'Man U'`
-
-# Create variable with False if name is John
-`var3 = df['COLUMNNAME'] != 'John'`
-
-# Filter all
+## Filter all
 `filtered = df[var1 & var2 & var3]`
