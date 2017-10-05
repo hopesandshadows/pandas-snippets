@@ -72,7 +72,7 @@
 
 Most pandas methods return a DataFrame so that another pandas method can be applied to the result.
 
-```
+```python
 df = (pd.melt(df)
       .rename(columns={
             'variable' : 'var',           
