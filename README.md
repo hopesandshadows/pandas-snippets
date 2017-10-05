@@ -67,3 +67,14 @@
 
 ### Filter all
 `filtered = df[var1 & var2 & var3]`
+
+## Method chaining
+
+Most pandas methods return a DataFrame so that another pandas method can be applied to the result.
+
+`df = (pd.melt(df)
+      .rename(columns={
+              'variable' : 'var',
+              'value' :})
+      .query('val >= 200')
+      )`
