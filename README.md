@@ -60,7 +60,9 @@
 ### Create variables and then join
 
 `var1 = df['COLUMNNAME'] == 'Yes'`
+
 `var2 = df['COLUMNNAME'] != 0`
+
 `var3 = df['COLUMNNAME'] != 'Something' `
 
 ### Filter all
