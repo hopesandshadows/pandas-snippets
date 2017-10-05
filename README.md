@@ -72,14 +72,11 @@
 
 Most pandas methods return a DataFrame so that another pandas method can be applied to the result.
 
-`df = (pd.melt(df)
-
+```
+df = (pd.melt(df)
       .rename(columns={
-      
-              'variable' : 'var',
-              
-              'value' :})
-              
+            'variable' : 'var',           
+             'value' :})
       .query('val >= 200')
-      
-      )`
+      )
+```
